@@ -1,0 +1,29 @@
+/* mặc định css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* css cho phần thân của trang web */
+
+.content-box {
+    margin: 10px 10px;   /* Căn giữa khối văn bản và tạo khoảng cách trên dưới */
+    border: 1px solid #030202;  /* Viền màu đen */
+    padding: 20px;          /* Khoảng cách giữa nội dung và khung viền */
+    line-height: 1.6;       /* Khoảng cách giữa các dòng văn bản */               
+    color: #333;            /* Màu chữ chính */
+    max-width: 800px;       /* Giới hạn chiều rộng của khối văn bản */
+}
+
+.content-box a {
+    color: #0d52a0;         /* Màu xanh cho liên kết */
+    text-decoration: none;      /* Loại bỏ gạch chân mặc định của liên kết */
+}
+
+.content-box a:hover {
+    text-decoration: underline; /* Hiện gạch chân khi di chuột vào */
+}
+
+.content-box p {
+    margin-bottom: 15px;    /* Khoảng cách giữa hai đoạn văn */
+}
