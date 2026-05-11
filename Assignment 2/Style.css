@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Phần Header màu đen */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    
+}
+.nav ul {
+    list-style: none; /* Bỏ dấu chấm tròn của danh sách */
+    display: flex; /* Dàn hàng ngang */
+    justify-content: center; /* Căn giữa các mục */
+}
+
+.nav li {
+    margin: 5px 20px; /* Khoảng cách giữa các chữ, 5px là chiều cao, 20px là khoảng cách bên trái và phải */
+}
+
+.nav a {
+    text-decoration: none; /* Bỏ gạch chân */
+    color: #333;
+}
+
+/* Hiệu ứng khi di chuột vào chữ */
+.nav a:hover {
+    color: #000;
+    font-weight: bold;
+}
