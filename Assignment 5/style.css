@@ -1,0 +1,25 @@
+/* mặc định css */
+* {
+    margin: 10;
+    padding: 10;
+    box-sizing: border-box;
+}
+/* css cho phần thân của trang web */
+h1 {
+    color: orange;
+}
+.one {
+    color: blue;
+}
+.two {
+    color: rgb(231, 41, 8);
+}
+.footer {
+    background-color: #f3f2e8;
+    border-left: 6px solid #ffa500;
+    padding: 15px 20px;
+    margin-top: 20px;
+}
+.tip {
+    color: rgb(211, 82, 22);
+}
