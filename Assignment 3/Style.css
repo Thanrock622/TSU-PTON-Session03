@@ -1,0 +1,42 @@
+/* mặc định css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* css của form */
+h1 { 
+    font-weight: bold;          /* In đậm tiêu đề */
+     margin-left: 10px;        /* đi ra cho đẹp hơn */
+}
+form {
+    max-width: 600px;       /* Giới hạn chiều rộng của form */
+    margin: 0 0;            /* Căn giữa form trên trang */
+    padding: 20px;          /* Khoảng cách bên trong form */
+}
+
+.form-group {
+    margin-bottom: 15px;       /* Khoảng cách giữa các ô nhập liệu */     
+}
+label {
+    display: block;             /* Hiển thị label trên một dòng riêng */
+     font-weight: bold;          /* In đậm nhãn */
+    margin-bottom: 5px;         /* Khoảng cách giữa nhãn và ô nhập liệu */
+}
+input, textarea {
+    width: 100%;        /* Chiếm toàn bộ chiều rộng của form-group */
+    padding: 10px;      /* Khoảng cách bên trong ô nhập liệu */
+     font-size: 16px;    /* Kích thước chữ trong ô nhập liệu */ 
+    border: none;       /* Loại bỏ đường viền mặc định */
+     background-color: #f0f0f0; /* Màu nền cho ô nhập liệu */
+    border-radius: 4px; /* Bo góc cho ô nhập liệu */
+}
+button {
+    padding: 10px 250px;     /* Khoảng cách bên trong nút */
+    font-size: 16px;        /* Kích thước chữ trên nút */
+    color: #fff;            /* Màu chữ trên nút */
+    background-color: #32d370; /* Màu nền cho nút */
+    border: none;           /* Loại bỏ đường viền mặc định */
+    border-radius: 4px;     /* Bo góc cho nút */
+    cursor: pointer;        /* Hiển thị con trỏ khi hover vào nút */
+}
